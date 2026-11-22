@@ -1,9 +1,22 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090d1f"><title>WALL TOOLS | JUBAYR</title><meta name="description" content="30 useful tools in one place."><link rel="stylesheet" href="style.css"></head>
-<body>
-<header class="top"><a class="brand" href="index.html"><span class="logo">W</span><span>WALL TOOLS<small>CREATED BY JUBAYR</small></span></a><nav><a href="index.html">Home</a><a href="#tools">Explore</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><input id="search" class="search" placeholder="Search tools..." aria-label="Search tools"><button id="theme" class="theme" aria-label="Toggle theme">☼</button></header>
-<main><section class="hero"><div><p class="eyebrow">✦ 30 SMART TOOLS · ONE SIMPLE PLACE</p><h1>Make your work<br><span>beautifully simple.</span></h1><p class="intro">Calculate, convert, create and get things done — all in one colorful place.</p><a class="cta" href="#tools">Explore All Tools ↗</a><p class="note">✦ Fast & easy　 ✦ Mobile friendly　 ✦ Free to use</p></div><div class="art"><div class="orb"></div><strong>JUBAYR</strong><small>YOUR EVERYDAY TOOLKIT</small></div></section>
-<section class="section" id="tools"><div class="heading"><div><p class="eyebrow">THE TOOLBOX</p><h2>Explore all tools</h2><p class="muted">Choose a tool to open it. Search is optional.</p></div><b id="count">30 TOOLS</b></div>
-<div class="filters"><button class="active" data-cat="All">All</button><button data-cat="Calculators">Calculators</button><button data-cat="PDF & Files">PDF & Files</button><button data-cat="Image & Design">Image & Design</button><button data-cat="Text & Writing">Text & Writing</button><button data-cat="Generators">Generators</button><button data-cat="Everyday">Everyday</button></div><div class="grid" id="grid"></div><p id="empty" class="muted" hidden>No matching tools found.</p></section></main>
-<footer><b>WALL TOOLS</b><span>Designed with care by JUBAYR</span><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="https://t.me/jubayr1220" target="_blank" rel="noopener">Telegram</a></footer>
-<div class="backdrop" id="modal" hidden><section class="modal"><button id="close" class="close">✕</button><div id="toolIcon" class="modalicon">✦</div><p class="eyebrow" id="toolCat"></p><h2 id="toolName"></h2><p id="toolDesc" class="muted"></p><div id="work"></div></section></div><script src="app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="bn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JUBAYR — Your Creative Space</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="ambient"></div>
+<main id="authPage" class="auth-wrap"><section class="auth-card">
+<div class="horse-track"><div class="horse">🐎</div></div>
+<div class="brand"><span>J</span><span>U</span><span>B</span><span>A</span><span>Y</span><span>R</span></div>
+<p class="eyebrow">YOUR CREATIVE SPACE</p><h1>স্বাগতম!</h1><p class="muted">তোমার অ্যাকাউন্ট তৈরি করে শুরু করো</p>
+<button class="google-btn" id="googleBtn"><b>G</b> Continue with Google</button>
+<div class="divider"><span>অথবা ইমেইল দিয়ে</span></div>
+<form id="signupForm"><label>তোমার নাম</label><input id="name" placeholder="নাম লিখো" required>
+<label>Gmail / Email</label><input id="email" type="email" placeholder="name@gmail.com" required>
+<label>পাসওয়ার্ড</label><input id="password" type="password" minlength="6" placeholder="কমপক্ষে ৬ অক্ষর" required>
+<button class="primary" type="submit">Create account <span>→</span></button></form>
+<p class="tiny">Continue করলে তুমি আমাদের ব্যবহারের শর্তে সম্মতি দিচ্ছো।</p><p id="authMessage" class="message"></p></section></main>
+<section id="processing" class="processing hidden"><div class="brand big"><span>J</span><span>U</span><span>B</span><span>A</span><span>Y</span><span>R</span></div><div class="falling">✦　✧　✦</div><h2>তোমার স্পেস তৈরি হচ্ছে...</h2><div class="progress"><i></i></div></section>
+<div id="app" class="app hidden"><header><div class="brand small"><span>J</span><span>U</span><span>B</span><span>A</span><span>Y</span><span>R</span></div><button id="logout" class="ghost">Log out ↗</button></header>
+<section class="welcome"><p class="eyebrow">WELCOME TO YOUR SPACE</p><h1 id="welcomeTitle">তোমাকে স্বাগতম!</h1><p>আজ তুমি কী করতে চাও?</p></section>
+<section class="prompt-grid"><article class="prompt-card"><div class="icon">🚀</div><h2>Your plans</h2><p>তোমার পরবর্তী পরিকল্পনা কী?</p><button class="outline">পরিকল্পনা তৈরি করো ↗</button></article>
+<article class="prompt-card"><div class="icon">📚</div><h2>তুমি কী শিখতে চাও?</h2><p>নতুন কিছু শেখার যাত্রা শুরু করো।</p><button class="outline">শেখা শুরু করো ↗</button></article>
+<article class="prompt-card"><div class="icon">🎨</div><h2>তুমি কী বানাতে চাও?</h2><p>তোমার আইডিয়াকে বাস্তবে রূপ দাও।</p><button class="outline">কিছু তৈরি করো ↗</button></article></section>
+<section class="lower"><nav><button class="nav active" data-tab="tools">🧰 Tools</button><button class="nav" data-tab="profile">👤 Profile</button><button class="nav" data-tab="settings">⚙ Settings</button></nav><div id="panel"><h2>তোমার Tools</h2><p>তোমার কাজের জন্য দরকারি টুলগুলো এখানে যোগ করা যাবে।</p><div class="tool-chip">✨ Creative tools</div><div class="tool-chip">📝 Writing tools</div><div class="tool-chip">💡 Idea tools</div></div></section></div>
+<script src="app.js"></script></body></html>

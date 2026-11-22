@@ -1,15 +1,8 @@
-WALL TOOLS — GitHub Pages upload
+JUBAYR WEBSITE — GitHub Pages Upload
 
-1. Download and extract wall_tools_github_upload.zip.
-2. Open your GitHub repository.
-3. Upload the files inside the extracted folder (not the ZIP itself):
-   index.html, style.css, app.js, about.html, contact.html, privacy.html
-4. Commit changes.
-5. In Settings → Pages, choose Deploy from a branch, select main and / (root), then Save.
-6. Wait for GitHub Pages to publish your site.
+1. ZIP extract করুন।
+2. index.html, style.css, app.js এবং README.txt একসাথে GitHub repository-র root-এ upload করুন।
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save নির্বাচন করুন।
+4. GitHub Pages-এর দেওয়া URL খুলুন।
 
-Important:
-- Keep all six website files together in the repository root.
-- This is a static website; no database setup is needed.
-- Some advanced tools are starter guides, while the browser-based tools work directly.
-- Update the Telegram link in index.html if your username changes.
+গুরুত্বপূর্ণ: এই ZIP-এ registration interface এবং demo animation আছে। ফর্মটি আসল নিরাপদ account তৈরি বা Gmail verification করে না। Google Sign-In ও email verification চালু করতে Firebase Authentication project/configuration প্রয়োজন। Firebase Console-এ Google এবং Email/Password provider enable করে আপনার GitHub Pages domain Authorized domains-এ যোগ করতে হবে। Production login হিসেবে demo ব্যবহার করবেন না।
