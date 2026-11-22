@@ -1,0 +1,1 @@
+# ToolNest\n\n1. ZIP extract করুন।\n2. ভেতরের সব ফাইল GitHub repository-এর root-এ upload করুন।\n3. Vercel-এ GitHub repo import করে deploy করুন। Build command লাগবে না।\n\nনোট: কিছু ফিচার প্রাথমিক/ডেমো; Contact ইমেইল নিজেরটি দিয়ে বদলাবেন। AdSense আয় নিশ্চিত নয়; নিজস্ব কনটেন্ট ও নীতিমালা লাগবে।
